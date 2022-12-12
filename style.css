@@ -89,7 +89,7 @@ section p {
     justify-content: space-around;
     align-items: center;
     min-height: 24em;
-    background-color: var(--color5);
+    background-color: var(--color4);
     color: var(--color1);
 }
 
@@ -127,13 +127,32 @@ section p {
 }
 
 footer {
-    min-height: 10em;
+    min-height: 4em;
     background-color: var(--color2);
     color: var(--color1);
+    padding: 1em 5%;
 }
 
 footer p {
     text-align: center;
+    padding-top: 10px;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes img{
+    width: 40px;
+    padding-left:5px;
+    padding-top: 6px;
 }
 
 
