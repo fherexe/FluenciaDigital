@@ -6,7 +6,19 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    border-bottom: 1px solid rgba(192, 192, 192, 0.459);
+    border-bottom: 1px solid rgba(12, 12, 12, 0.349);
+}
+
+nav span {
+    position: relative;
+    line-height: 110px;
+    right: 30em;
+    float: left;
+}
+
+nav span img {
+    width: 100px;
+    padding: 2px;
 }
 
 nav ul {
@@ -26,5 +38,10 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.nav_btn {
+    background-color: var(--color3);
+    border-radius: 5px;
 }

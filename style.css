@@ -1,20 +1,53 @@
 :root {
     --color1: #F2F2F2;
     --color2: #0D0D0D;
-    --color3: #1B80BF;
-    --color4: #1D7342;
-    --color5: #F23A29;
+    --color3: #025CB2;
+    --color4: #027B68;
+    --color5: #E5390B;
 }
 
 body {
-    background-color: var(--color1);
-        padding-top: 80px;
-        color: #0D0D0D;
+    padding-top: 80px;
+    color: var(--color2);
+}
+
+p {
+    text-align: justify;
 }
 
 main {
-    height: 400px;
-    background-image: url(img/microsoft.webp);
+    padding: 0px 5%;
+    height: 89vh;
+    background-image: url(img/wallword-pacote-office-1-.jpg);
+    background-position: center center;
     background-size: cover;
-    background-position: center;
+    color: var(--color1);
+    padding-top: 6em;
+}
+
+.fluenciadigital{
+    background-color:#e53a0bf3;
+    padding: 2em;
+    border-radius: 10px;
+    height: 20em;
+    width: 32em;
+    box-shadow: 6px 5px 5px 0px rgb(0 0 0 / 51%)
+}
+
+.fluenciadigital p{
+    width: 24em;
+    padding: 1em 0px 5.5em 0px;
+}
+
+.fluenciadigital a{
+    color: var(--color1);
+    background-color:var(--color3);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px;
+}
+
+.fluenciadigital a:hover{
+    background-color: var(--color1);
+    color: var(--color3);
 }
