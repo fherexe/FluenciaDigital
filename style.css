@@ -35,10 +35,11 @@ main {
     box-shadow: 6px 5px 5px 0px rgb(0 0 0 / 51%)
 }
 
-.fluenciadigital h1{
+.fluenciadigital h1 {
     font-size: 36px;
 }
-.fluenciadigital h2{
+
+.fluenciadigital h2 {
     padding-bottom: 0.5em;
 }
 
@@ -61,21 +62,25 @@ main {
 }
 
 section {
-    background-color: var(--color5);
+    background-color: var(--color4);
     color: var(--color1);
     min-height: 10em;
 }
 
-.vantagens {
-    min-height: 22;
-    text-align: center;
-    padding: 2em;
-    max-width: 40em;
-    margin: auto;
+section h2 {
+    padding-top: 30px;
 }
 
-.vantagens h2 {
-    padding: 1em 0;
+section p {
+    padding: 15px 0px;
+}
+
+.vantagens {
+    margin-top: 10px;
+    min-height: 6em;
+    text-align: center;
+    max-width: 34em;
+    margin: auto;
 }
 
 .vantagensitens {
@@ -83,7 +88,7 @@ section {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    min-height: 23em;
+    min-height: 24em;
     background-color: var(--color5);
     color: var(--color1);
 }
@@ -100,23 +105,44 @@ section {
     padding-top: 0 10px;
 }
 
-.item1{
+.item1 {
     background-image: url(img/icons/bubble1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 18em;    
+    background-size: 18em;
 }
 
-.item2{
+.item2 {
     background-image: url(img/icons/bubble2.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 18em;   
+    background-size: 18em;
 }
 
-.item3{
+.item3 {
     background-image: url(img/icons/bubble3.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 18em;   
+    background-size: 18em;
+}
+
+footer {
+    min-height: 10em;
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+footer p {
+    text-align: center;
+}
+
+
+@media (max-width:940px) {
+    .vantagensitens {
+        flex-direction: column;
+    }
+
+    .fluenciadigital {
+        margin: auto;
+    }
 }
