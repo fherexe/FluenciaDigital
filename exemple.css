@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none; 
+}
+
+:root{
+    --box:border:1px solid red;
+    --color1:#285C4D;
+    --color2:#0D0D0D;
+}
+
+body{
+    color: #0D0D0D;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+p{
+    text-indent: 1.5em;
+}
+
+nav{
+    
+    width: 100%;
+    background-color:var(--color1);
+    
+    
+}
+    
+            nav ul li a:hover{
+                border-bottom: 4px solid #fff;
+                padding-bottom: 26px;
+            }
+
+.logo1{
+    text-align: center;
+    float:left;
+    height: 100%;
+    width: 5em;
+}
+
+.logo1 img{
+    height: 5em;
+}
+
+.logo2{
+    text-align: center;
+    float:left;
+    height: 100%;
+    width: 4em;
+    z-index:unset;
+}
+
+.logo2 img{
+    width: 11em;
+    position: relative;
+    top: 2em;
+}
+
+.checkbtn{
+    background-image: url(img/Icons/Menu\ Rounded.png);
+    background-size: cover;
+    position: relative;
+    top:15px;
+    font-size: 50px;
+    color: #fff;
+    float:right;
+    height: 1em;
+    width: 1em;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+main{
+    background-color: var(--color2);
+    background-image: url(img/kidsmile.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    min-height: 546px;
+    max-height: 646px;
+    padding: 0% 5%;
+    display: flex;
+    
+}
+    .container{
+        background-color:#285c4dd2;
+        text-align:justify;
+        height: 21em;
+        width: 30em;
+        padding: 2em;
+        color: #fff;
+        margin: 15% 0%;
+    }
+        .container p{
+            padding-top: 1em;
+            padding-bottom: 6em;
+        }
+
+section{
+    margin:8% 0%;
+    padding: 0% 5%;
+}   
+    .sectioncontainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2em;
+    }
+        .sectionitem{
+            text-align: center;
+            height: 18em;
+            width: 26em;
+            padding: 1em;
+        }
+        .sectionitem img{
+            height: 6em;
+            width: 6em;
+        }
+
+        .section h2{
+            padding: 16px 0px;
+        }
+
+    .botao{
+        display: inline-block;
+        background-color: #00000000;
+        border: 1px solid #fff;
+        padding: 10px 30px;
+        border-radius: 2em;
+        font-weight: 600; 
+    }
+
+    .botao:hover{
+        background-color: #fff;
+        color: var(--color1);
+    }
+
+article{
+    padding: 10px 5%;
+    background-image: url(img/texturapapel.webp);
+}
+
+    .articlecontainer1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .articleitem1{
+        background-color: rgba(255, 255, 255, 0.452);
+        padding:1em;
+        width: 30em;
+    }
+
+    .articlecontainer2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .articlepartner{
+        background-color: rgba(255, 255, 255, 0.452);
+        padding:1em;
+        width: 30em;
+
+    }
+
+footer{
+    color: #fff;
+    background-color: var(--color1);
+    padding: 10px 5%;
+}
+
+    .footer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    } 
+        .footer h2{
+            margin-top:1em;
+        }
+
+        .footer ul{
+            margin-bottom: 1em;
+        }
+
+        footer a{
+            font-weight: 600;
+        }
+
+            footer a:hover{
+                color: blue;
+            }
+
+    .logofooter img{
+        width: 13em;
+    }
+    .contato p{
+        margin: 1em 0%;
+        max-width: 17em;
+    }
+
+    .copy{
+        text-align: center;
+        padding: 1% 0%;
+    }
+
+@media (max-width:952px){
+    .container{
+        margin:auto;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 50px;
+        }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: #5b8b7e;
+        top:5em;
+        text-align: center;
+        transition: all .5s;
+        left: -100%;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width:852px){
+    .sectioncontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .sectioncontainer img{
+        width: 6em;
+        height: 6em;
+    }
+
+    .articlecontainer1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .articlecontainer2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sectionitem{
+        width: 100%;
+    }
+
+    .articleitem1{
+        width: 100%;
+    }
+
+    .articleitem2{ 
+        width: 100%;
+    }
+
+    .articleitem2 img{
+        width: 100%;
+    }
+
+    .articlecontainer2{
+        width: 100%;
+    }
+    .articlecontainer2 img{
+     width: 100%;   
+    }
+
+    .articlepartner p{
+        width: 100%; 
+        font-size: 14px;  
+       }
+
+    .articlepartner{
+        width: 100%;
+    }
+}
