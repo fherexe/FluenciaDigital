@@ -90,11 +90,27 @@ section {
     border-radius: 10px;
 }
 
-.vantagensitens div:hover {
-    color: var(--color5);
-    background-color: var(--color1);
-}
-
 .vantagensitens p {
     padding-top: 0 10px;
+}
+
+.item1{
+    background-image: url(img/icons/bubble1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18em;    
+}
+
+.item2{
+    background-image: url(img/icons/bubble2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18em;   
+}
+
+.item3{
+    background-image: url(img/icons/bubble3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18em;   
 }
