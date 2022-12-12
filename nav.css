@@ -45,3 +45,9 @@ nav ul li a:hover {
     background-color: var(--color3);
     border-radius: 5px;
 }
+
+.nav_btn:hover{
+    background-color:var(--color1);
+    color: var(--color3);
+    opacity: 1;
+}

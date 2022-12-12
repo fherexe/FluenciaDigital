@@ -11,8 +11,11 @@ body {
     color: var(--color2);
 }
 
-main {
+main, section{
     padding: 0px 5%;
+}
+
+main {
     height: 89vh;
     background-image: url(img/wallword-pacote-office-1-.jpg);
     background-position: center center;
@@ -50,22 +53,23 @@ main {
 }
 
 section {
-    padding: 0px 5%;
     background-color: var(--color5);
     color: var(--color1);
-    height: 26em;
+    min-height: 35em;
 }
 
 .vantagens{
     text-align: center;
     padding: 2em;
+    background-color: #025CB2;
+    max-width: 40em;
+    margin:auto;
 }
 
 .vantagens h2{
     padding:1em 0;
 }
 .vantagens p{
-    text-align: center;
-    width: 30em;
+    
     
 }
