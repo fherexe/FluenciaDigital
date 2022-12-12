@@ -11,10 +11,6 @@ body {
     color: var(--color2);
 }
 
-p {
-    text-align: justify;
-}
-
 main {
     padding: 0px 5%;
     height: 89vh;
@@ -23,10 +19,11 @@ main {
     background-size: cover;
     color: var(--color1);
     padding-top: 6em;
+    text-align: justify;
 }
 
-.fluenciadigital{
-    background-color:#e53a0bf3;
+.fluenciadigital {
+    background-color: #e53a0bf3;
     padding: 2em;
     border-radius: 10px;
     height: 20em;
@@ -34,20 +31,41 @@ main {
     box-shadow: 6px 5px 5px 0px rgb(0 0 0 / 51%)
 }
 
-.fluenciadigital p{
+.fluenciadigital p {
     width: 24em;
     padding: 1em 0px 5.5em 0px;
 }
 
-.fluenciadigital a{
+.fluenciadigital a {
     color: var(--color1);
-    background-color:var(--color3);
+    background-color: var(--color3);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 4px;
 }
 
-.fluenciadigital a:hover{
+.fluenciadigital a:hover {
     background-color: var(--color1);
     color: var(--color3);
+}
+
+section {
+    padding: 0px 5%;
+    background-color: var(--color5);
+    color: var(--color1);
+    height: 26em;
+}
+
+.vantagens{
+    text-align: center;
+    padding: 2em;
+}
+
+.vantagens h2{
+    padding:1em 0;
+}
+.vantagens p{
+    text-align: center;
+    width: 30em;
+    
 }
