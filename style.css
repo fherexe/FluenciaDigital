@@ -6,6 +6,10 @@
     --color5: #E5390B;
 }
 
+html {
+    scroll-behavior:smooth;
+}
+
 body {
     padding-top: 80px;
     color: var(--color2);
