@@ -172,6 +172,10 @@ footer a:hover {
     padding-top: 6px;
 }
 
+.redes img:hover{
+    opacity: 0.7;
+}
+
 
 @media (max-width:940px) {
     .vantagensitens {
