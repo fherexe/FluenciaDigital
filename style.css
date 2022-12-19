@@ -178,6 +178,11 @@ footer a:hover {
 
 
 @media (max-width:940px) {
+    header ul {
+        position: fixed;
+        left: -130%;
+    }
+
     .vantagensitens {
         flex-direction: column;
     }
